@@ -1,0 +1,92 @@
+@charset "UTF-8";
+/*variables colores*/
+* {
+  padding: 10px 20 px 20 px; }
+
+body {
+  background: #0c0004; }
+
+/*media query*/
+@media screen and (max-width: 700px) {
+  body {
+    background-color: #181516; }
+  body footer img {
+    width: 10%; }
+  body section.row {
+    margin: 10px; } }
+
+section .bordo {
+  background: #0c0004; }
+
+section h1 {
+  color: #90724b;
+  font-family: 'Pirata One', cursive;
+  font-size: 100px;
+  text-align: center; }
+
+section .language {
+  text-align: right; }
+
+/*formulario consulta*/
+.form-register, .form-search {
+  width: 400px;
+  background: #b62a59;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: #0c0004;
+  box-shadow: 7px 13px 37px #000; }
+  .form-register .h4, .write {
+    font-size: 22px;
+    margin-bottom: 20px; }
+  .form-register .comments {
+    width: 100%;
+    background: #7a1134;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px; }
+  .form-register .controls, .writeTitle {
+    width: 100%;
+    background: #7a1134;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #0c0004;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white; }
+  .form-register .botons, .button-search {
+    width: 100%;
+    background: #0c0004;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px; }
+
+
+/*media query formulario consulta*/
+@media screen and (max-width: 700px) {
+  .form-register {
+    background: #423c3e; } }
+
+nav.bordo.navbar-dark .navbar-nav .nav-link.active, nav.bordo.navbar-dark .navbar-nav .nav-link.dropdown-toggle, nav.bordo.navbar-dark .navbar-nav .dropdown-menu .dropdown-item {
+  color: #7a1134;
+  font-weight: bold;
+  font-size: 15pt; }
+
+/*media query NavBar*/
+@media screen and (max-width: 700px) {
+  nav.bordo.navbar-dark .navbar-nav .nav-link.active, .nav-link.dropdown-toggle, .dropdown-menu .dropdown-item {
+    background-color: #181516; }
+  .navbar.navbar-expand-lg.bordo.navbar-dark {
+    background-color: #181516; }
+  .navbar.navbar-expand-lg.bordo.navbar-dark .dropdown-menu.bordo {
+    background-color: #181516; } }
+
+div {
+  color: white; }
+
+
